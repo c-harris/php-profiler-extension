@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<server>
+    <name>plivo.github.com/pear</name>
+    <summary>Doc's PEAR Channel Server</summary>
+    <alias>plivo</alias>
+    <url>http://plivo.github.com/pear</url>
+</server>
