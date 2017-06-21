@@ -25,4 +25,4 @@ before_script:
 
 script: REPORT_EXIT_STATUS=1 php run-tests.php -p `which php` --show-diff -d extension=`pwd`/.libs/algoweb.so -q
 
-after_failure: "cat tests/*.diff"
+after_failure:  for f in *.diff; do git diff "${f#diff}.exp" "${f#diff}.out"; done
