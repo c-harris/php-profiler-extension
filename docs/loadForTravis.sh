@@ -4,4 +4,5 @@ phpize
 ./configure
 make
 make install
+ echo "extension = algoweb.so" >> ~/.phpenv/versions/$(phpenv version-name)/etc/php.ini
 popd
